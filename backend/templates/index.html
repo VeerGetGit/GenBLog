@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI SEO Blogs</title>
+</head>
+<body>
+    <h1>AI Generated SEO Blogs</h1>
+
+    {% if blogs %}
+        {% for blog in blogs %}
+            <div style="margin-bottom:20px;">
+                <h2>
+                    <a href="/post/{{ blog.id }}">{{ blog.title }}</a>
+                </h2>
+                <p><b>Keywords:</b> {{ blog.keywords | join(", ") }}</p>
+                <small>{{ blog.date }}</small>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>No blogs found.</p>
+    {% endif %}
+
+</body>
+</html>
