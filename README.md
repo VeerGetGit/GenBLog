@@ -1,4 +1,4 @@
-# 📝 AI-Based SEO Blog Generation Tool (Task 2)
+# 📝 AI-Based SEO Blog Generation Tool 
 
 ## 📌 Overview
 
