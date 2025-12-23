@@ -74,27 +74,3 @@ Self-Hosted Website (Flask)
 
 ---
 
-## 📁 Project Structure
-
-AI_SEO_Blog_Tool/
-│
-├── backend/
-│ ├── app.py
-│ ├── scraper.py
-│ ├── blog_generator.py
-│ ├── seo_keywords.py
-│ ├── storage.py
-│ ├── config.py
-│ ├── blogs.json
-│ └── templates/
-│   ├── index.html
-│   └── post.html
-│
-├── frontend/
-│ └── streamlit_app.py
-│
-├── .env
-├── .gitignore
-├── requirements.txt
-└── README.md
-
